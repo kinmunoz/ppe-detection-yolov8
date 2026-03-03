@@ -1,4 +1,4 @@
-# 🔍 Análisis de Errores — PPE Detection YOLOv8
+#  Análisis de Errores — PPE Detection YOLOv8
 
 **Proyecto:** Detección de EPP en obra de construcción  
 **Modelo:** YOLOv8s, 50 épocas, imgsz=640  
@@ -12,7 +12,7 @@ El análisis se realizó sobre el conjunto de validación (20% del dataset, ~600
 
 ---
 
-## ❌ Falsos Positivos (FP) — El modelo detecta EPP donde no lo hay
+##  Falsos Positivos (FP) — El modelo detecta EPP donde no lo hay
 
 ### FP-1: Casco detectado en objetos esféricos de colores brillantes
 
@@ -129,27 +129,6 @@ El análisis se realizó sobre el conjunto de validación (20% del dataset, ~600
 | Distancia < 5m | 0.88 | 0.85 | Alta fiabilidad |
 | Distancia > 10m | 0.67 | 0.63 | Degradación por resolución |
 
----
 
-## 🎯 Roadmap de Iteración Propuesto
-
-```
-Sprint 1 (2 semanas):
-  → Captura de 300 imágenes con oclusión y baja luz
-  → Re-entrenamiento con nuevas augmentaciones
-  → Objetivo: mAP50 global ≥ 0.84
-
-Sprint 2 (2 semanas):
-  → Captura de vistas traseras y hard negatives
-  → Evaluar YOLOv8m (medium) para más capacidad
-  → Objetivo: Recall no-hardhat espaldas ≥ 0.65
-
-Sprint 3 (1 mes):
-  → Deploy piloto en 1 cámara de obra real
-  → Recolección de datos en producción
-  → Ciclo activo de aprendizaje (active learning)
-```
-
----
 
 *Análisis elaborado con base en inspección manual de predicciones de validación y evaluación por subgrupos.*
