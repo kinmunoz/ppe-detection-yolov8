@@ -208,24 +208,14 @@ Versiones de software:
 ppe-detection-yolov8/
 ├── README.md
 ├── notebooks/
-│   ├── 01_baseline_inference.ipynb     # Exploración y baseline con pesos pre-entrenados
-│   └── 02_training_evaluation.ipynb    # Entrenamiento completo + evaluación
+│   └──training_evaluation.ipynb    # Entrenamiento completo + evaluación
 ├── docs/
 │   ├── class_definitions.md            # Definición de clases y reglas de etiquetado
 │   ├── error_analysis.md               # Análisis de fallos (FP/FN)
 │   └── governance_checklist.md         # Checklist de gobernanza y licencias
 ├── results/
 │   ├── curves/                         # Curvas de entrenamiento (PNG)
-│   │   ├── box_loss.png
-│   │   ├── cls_loss.png
-│   │   ├── map50_curve.png
-│   │   ├── confusion_matrix.png
-│   │   └── PR_curve.png
 │   └── evidence/                       # Evidencias visuales
-│       ├── annotations/                # 3-5 ejemplos de anotación
-│       ├── val_predictions/            # 10 predicciones de validación
-│       └── new_images/                 # 5 predicciones en imágenes nuevas
-└── weights/                            # Ver GitHub Releases para pesos (.pt)
     └── README.md
 ```
 
