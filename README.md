@@ -96,7 +96,7 @@ dataset = project.version(1).download("yolov8")
 
 **Paso 1 — Abrir notebook en Colab**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_USUARIO/ppe-detection-yolov8/blob/main/notebooks/02_training_evaluation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kinmunoz/ppe-detection-yolov8/blob/main/notebooks/training_evaluation.ipynb)
 
 **Paso 2 — Seleccionar GPU**
 ```
@@ -124,13 +124,8 @@ Entorno de ejecución → Ejecutar todo (Ctrl+F9)
 - ✅ Carpeta `runs/detect/train/` con curvas y pesos
 - ✅ Predicciones de validación en `runs/detect/val/`
 
-**Paso 6 — Si no hay GPU disponible**
 
-Ejecutar el notebook de inferencia con pesos pre-entrenados:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_USUARIO/ppe-detection-yolov8/blob/main/notebooks/01_baseline_inference.ipynb)
-
----
 
 ## 📊 Resultados <a name="resultados"></a>
 
